@@ -1,0 +1,26 @@
+
+v1.0		Basic Centroid Finding
+
+v2.0	9/22/15	Optimized code
+		Added arrays to saves the coordinates for further usage
+
+v3.0		Second ROI capability
+
+v4.0	9/24/15	Added computation for the distance from the centroid to border
+		Added External File creation
+		Added labels to make computations more readable
+v4.1	9/25/15	Added “Verbose” and “long_output” logic statements to give more control to user.
+		Added Internal checks for debugging purposes
+		Optimized code
+
+v5.0		Added circular permutation to cycle the points in a shape
+
+v6.0		Added dot product computation and subroutine
+v6.1	9/30/15	Added double precision declarations
+		Added external file creation for dot product
+
+v7.0	10/1/15	Removed circular permutation because of an order issue
+		Added binning for pre-processing
+v7.1	10/1/15	Fixed unexpected statement function error
+v7.1.1	10/6/15	Code optimized for one ROI
+v7.2.1	10/14/15Added File Name Reading
